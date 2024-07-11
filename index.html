@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Power BI Embed Example</title>
+    <style>
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%; /* Aspect Ratio 16:9 */
+            height: 0;
+        }
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Relatório Power BI</h1>
+    <div class="iframe-container">
+        <iframe title="Gatito_petshop Guilherme" src="https://app.powerbi.com/reportEmbed?reportId=d9f12e9c-ddd8-4e09-92a6-a01156142dbf&autoAuth=true&ctid=ba201131-9621-49ca-b50d-57d968b4ac35" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
+</body>
+</html>
